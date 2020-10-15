@@ -1,0 +1,19 @@
+<form id="myForm" onsubmit="handleFormSubmit(this)">
+  <div class="form-group">
+    <label for="applied_degree">Applied Degree</label>
+    <input class="form-control form-control-sm" type="text" class="form-control" id="applied_degree" name="applied_degree" placeholder="Applied Degree">
+  </div>
+  <div class="form-group">
+    <label for="nationality">Nationality</label>
+    <input class="form-control form-control-sm" type="text" class="form-control" id="nationality" name="nationality" placeholder="Nationality">
+  </div>
+  <div class="form-group">
+    <label for="gender">Gender</label>
+    <select class="form-control form-control-sm" id="gender" name="gender" required>
+      <option value="" selected>Choose...</option>
+      <option value="Male">Male</option>
+      <option value="Female">Female</option>
+    </select>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
